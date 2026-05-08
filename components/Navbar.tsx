@@ -103,7 +103,7 @@ export default function Navbar() {
   top-0
   right-0
   w-[280px]
-  h-screen
+  h-full
   bg-[#2D5A27]
   text-white
   p-8
