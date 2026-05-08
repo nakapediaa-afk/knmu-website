@@ -79,7 +79,6 @@ export default function Navbar() {
                     className="
                         md:hidden
                         text-[#2D5A27]
-                        text-3xl
                         font-bold"
                 >
                     ☰
