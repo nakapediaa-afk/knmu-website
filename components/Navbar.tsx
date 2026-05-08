@@ -11,6 +11,7 @@ import {
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [open, setOpen] = useState(false);
 
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-lg border-b border-white/20">
@@ -75,13 +76,10 @@ export default function Navbar() {
 
                 {/* MOBILE BUTTON */}
                 <button
-                    onClick={() => setIsOpen(true)}
-                    className="
-                        md:hidden
-                        text-[#2D5A27]
-                        font-bold"
+                    onClick={() => setOpen(!open)}
+                    className="md:hidden text-3xl text-[#2D5A27]"
                 >
-                    <HiOutlineMenuAlt3 size={28} />
+                    {open ? <HiX /> : <HiOutlineMenuAlt3 />}
                 </button>
 
             </div>
@@ -98,18 +96,18 @@ export default function Navbar() {
 
                     {/* SIDEBAR */}
                     <div className="
-  absolute
-  top-0
-  right-0
-  w-[280px]
-  h-full
-  bg-[#2D5A27]
-  text-white
-  p-8
-  shadow-2xl
-  flex
-  flex-col
-">
+      absolute
+      top-0
+      right-0
+      w-[280px]
+      h-full
+      bg-[#2D5A27]
+      text-white
+      p-8
+      shadow-2xl
+      flex
+      flex-col
+    ">
 
                         {/* CLOSE */}
                         <button
