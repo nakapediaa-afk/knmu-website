@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       className="relative h-screen bg-cover bg-center flex items-center justify-center"
       style={{
-        backgroundImage: "url('/images/rice-field.Webp')",
+        backgroundImage: "url('/images/rice-field.webp')",
       }}
     >
 
