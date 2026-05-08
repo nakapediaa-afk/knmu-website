@@ -67,14 +67,14 @@ export default function LoginPage() {
 
           <div>
 
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-[#2D5A27]">
               Email
             </label>
 
             <input
               type="email"
               placeholder="admin@email.com"
-              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none text-[#2D5A27]"
               value={email}
               onChange={(e) =>
                 setEmail(e.target.value)
@@ -85,14 +85,14 @@ export default function LoginPage() {
 
           <div>
 
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-[#2D5A27]">
               Password
             </label>
 
             <input
               type="password"
               placeholder="********"
-              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none text-[#2D5A27]"
               value={password}
               onChange={(e) =>
                 setPassword(e.target.value)

@@ -147,7 +147,7 @@ export default function Contact() {
                 </p>
 
                 <p className="text-green-100">
-                  AHU-0007526
+                  AHU-0007526,AH.01.04.Tahun 2026
                 </p>
 
               </div>
