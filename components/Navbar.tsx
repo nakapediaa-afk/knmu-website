@@ -99,7 +99,7 @@ export default function Navbar() {
 
                     {/* SIDEBAR */}
                     <div className="
-  fixed
+  absolute
   top-0
   right-0
   w-[280px]
