@@ -81,7 +81,7 @@ export default function Navbar() {
                         text-[#2D5A27]
                         font-bold"
                 >
-                    ☰
+                    <HiOutlineMenuAlt3 size={28} />
                 </button>
 
             </div>
