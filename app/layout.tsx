@@ -46,7 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
-      <body className={plusJakarta.className}>
+      <body className={plusJakarta.className} style={{ overflowX: "hidden" }}>
         <AuthProvider>
           {children}
         </AuthProvider>
